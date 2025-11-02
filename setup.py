@@ -35,7 +35,8 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "flowforge=src.main:main",
+            "flowforge=src.cli.main:cli",
+            "flowforge-server=src.main:main",
         ],
     },
 )
