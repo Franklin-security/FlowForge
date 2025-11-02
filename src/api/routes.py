@@ -8,11 +8,13 @@ from flask import Flask, jsonify
 from typing import Dict, Any
 
 from src.api.pipelines import pipelines_bp
+from src.api.providers import providers_bp
 
 app = Flask(__name__)
 
 # Register blueprints
 app.register_blueprint(pipelines_bp)
+app.register_blueprint(providers_bp)
 
 
 @app.route('/health', methods=['GET'])
