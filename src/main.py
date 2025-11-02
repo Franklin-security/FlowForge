@@ -66,7 +66,7 @@ def start_background_services(registry, poller):
 
 def cleanup():
     """Cleanup resources on shutdown."""
-    global _poller  # Fixed: using _poller not global_poller
+    global _poller
     
     logger.info("Shutting down FlowForge...")
     
