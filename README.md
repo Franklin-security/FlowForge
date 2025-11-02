@@ -4,12 +4,15 @@
 
 ## ✨ Features
 
+- **🔌 Plugin Architecture**: Multi-provider support with extensible plugin system (inspired by [pipedash](https://github.com/hcavarsan/pipedash))
 - **🔧 Automated CI/CD Pipeline**: GitHub Actions workflow for continuous integration and deployment
 - **🏗️ Modular Architecture**: Clean, extensible codebase structure designed for scalability
+- **💾 Data Caching**: SQLite database for caching pipeline data and reducing API calls
 - **🧪 Testing Framework**: Comprehensive test suite with pytest and coverage reporting
 - **⚙️ Configuration Management**: Environment-based configuration system with sensible defaults
 - **🌐 RESTful API**: Modern API endpoints for pipeline orchestration and monitoring
-- **🔗 GitHub Integration**: Seamless integration with GitHub for version control and automation
+- **🔗 Multi-Provider Support**: GitHub Actions (with GitLab CI, Jenkins coming soon)
+- **🔒 Security Ready**: Keyring integration for secure secret management
 - **🚀 Production Ready**: Built with best practices, ready for deployment
 
 ## Architecture
